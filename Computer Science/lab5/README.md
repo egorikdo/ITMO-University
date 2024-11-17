@@ -1,1 +1,0 @@
-In this lab, it is necessary to set up a local server and create a website with several pages. On one of the pages, demonstrate basic PHP actions. On another page, implement a "blog" using a database with tables containing posts and comments.
