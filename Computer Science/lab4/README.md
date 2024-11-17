@@ -1,0 +1,1 @@
+To complete the task with MySQL, you will need to install a local database. When connecting to it in the code, use user = "root" and password as the one you specified during the database installation.
