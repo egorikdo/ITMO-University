@@ -1,0 +1,73 @@
+2024-06-02 21:56:18,945 WARN ParseLogger [main] Ошибка при подключении или чтении данных из базы данных. Создана пустая коллекция
+2024-06-02 21:56:18,992 INFO ServerLogger [main] Добро пожаловать на сервер шизофрения
+2024-06-02 21:56:48,679 INFO ServerLogger [main] Получен запрос Request: command= lt.shgg.commands.Help@5a7fe64fuser=lt.shgg.data.User@92a, ticket= null, args= null
+2024-06-02 21:56:48,687 INFO ServerLogger [main] Отправлен ответ вот список доступных вам команд: help - справка по доступным командам
+info - выводит информацию о коллекции
+show - выводит все элементы коллекции
+add - добавляет элемент в коллекцию
+print_descending - выводит все элементы коллекции в порядке убывания
+filter_by_type type - выводит все элементы коллекции типа type
+count_greater_than_type type - выводит количество элементов коллекции, значение поля type которых больше заданного
+clear - удаляет все элементы из коллекции
+remove_by_id id - удаляет из коллекции элемент с айди id
+remove_greater {element} - удаляет из коллекции все элементы, меньшие, чем заданный
+remove_lower {element} - удаляет из коллекции все элементы, большие, чем заданный
+add_if_max {element} - добавляет элемент в коллекцию, если он превышает максимальный
+update id {element} - обновляет поля элемента по его id
+exit - завершает работу приложения
+execute_script filename - выполняет команды из файла filename
+
+2024-06-02 21:56:53,921 INFO ServerLogger [main] Получен запрос Request: command= lt.shgg.commands.Show@798162bcuser=lt.shgg.data.User@92a, ticket= null, args= null
+2024-06-02 21:56:53,923 INFO ServerLogger [main] Отправлен ответ Коллекция пуста. Используйте команду add, чтоб добавить элементы
+2024-06-02 21:57:02,982 INFO ServerLogger [main] Получен запрос Request: command= lt.shgg.commands.Add@23941fb4user=lt.shgg.data.User@92a, ticket= Ticket{id=1, name='4', coordinates=Coordinates{x=4.0, y=5}, creationDate=2024-06-02, price=5, type=VIP, venue=null, author=f}, args= null
+2024-06-02 21:57:05,717 INFO ServerLogger [main] Отправлен ответ Не получилось добавить элемент в базу данных
+2024-06-02 21:57:13,109 INFO ServerLogger [main] Получен запрос Request: command= lt.shgg.commands.Show@7098b907user=lt.shgg.data.User@92a, ticket= null, args= null
+2024-06-02 21:57:13,111 INFO ServerLogger [main] Отправлен ответ Коллекция пуста. Используйте команду add, чтоб добавить элементы
+2024-06-02 21:57:51,654 INFO ServerLogger [main] Добро пожаловать на сервер шизофрения
+2024-06-02 21:58:02,235 INFO ParseLogger [main] Коллекция сохранена в базу данных.
+2024-06-02 21:58:02,236 INFO ServerLogger [main] Объекты успешно сохранены
+2024-06-02 21:58:27,974 INFO ServerLogger [main] Получен запрос Request: command= lt.shgg.commands.Help@60129b9auser=lt.shgg.data.User@44da412, ticket= null, args= null
+2024-06-02 21:58:27,983 INFO ServerLogger [main] Отправлен ответ вот список доступных вам команд: help - справка по доступным командам
+info - выводит информацию о коллекции
+show - выводит все элементы коллекции
+add - добавляет элемент в коллекцию
+print_descending - выводит все элементы коллекции в порядке убывания
+filter_by_type type - выводит все элементы коллекции типа type
+count_greater_than_type type - выводит количество элементов коллекции, значение поля type которых больше заданного
+clear - удаляет все элементы из коллекции
+remove_by_id id - удаляет из коллекции элемент с айди id
+remove_greater {element} - удаляет из коллекции все элементы, меньшие, чем заданный
+remove_lower {element} - удаляет из коллекции все элементы, большие, чем заданный
+add_if_max {element} - добавляет элемент в коллекцию, если он превышает максимальный
+update id {element} - обновляет поля элемента по его id
+exit - завершает работу приложения
+execute_script filename - выполняет команды из файла filename
+
+2024-06-02 21:58:33,248 INFO ServerLogger [main] Получен запрос Request: command= lt.shgg.commands.Show@5f354bcfuser=lt.shgg.data.User@44da412, ticket= null, args= null
+2024-06-02 21:58:33,274 INFO ServerLogger [main] Отправлен ответ Ticket{id=1, name='krid', coordinates=Coordinates{x=123.0, y=123}, creationDate=2024-05-17, price=123123, type=VIP, venue=Venue{id=5, name='Ledoviy', capacity=123123123, address=Address{street='saint p.'}}, author=Ann}
+
+2024-06-02 21:58:44,886 INFO ParseLogger [main] Коллекция сохранена в базу данных.
+2024-06-02 21:58:44,887 INFO ServerLogger [main] Объекты успешно сохранены
+2024-06-02 22:08:31,997 INFO ServerLogger [main] Добро пожаловать на сервер шизофрения
+2024-06-02 22:08:53,630 INFO ServerLogger [main] Получен запрос Request: command= lt.shgg.commands.Help@67d18ed7user=lt.shgg.data.User@12820, ticket= null, args= null
+2024-06-02 22:08:53,637 INFO ServerLogger [main] Отправлен ответ вот список доступных вам команд: help - справка по доступным командам
+info - выводит информацию о коллекции
+show - выводит все элементы коллекции
+add - добавляет элемент в коллекцию
+print_descending - выводит все элементы коллекции в порядке убывания
+filter_by_type type - выводит все элементы коллекции типа type
+count_greater_than_type type - выводит количество элементов коллекции, значение поля type которых больше заданного
+clear - удаляет все элементы из коллекции
+remove_by_id id - удаляет из коллекции элемент с айди id
+remove_greater {element} - удаляет из коллекции все элементы, меньшие, чем заданный
+remove_lower {element} - удаляет из коллекции все элементы, большие, чем заданный
+add_if_max {element} - добавляет элемент в коллекцию, если он превышает максимальный
+update id {element} - обновляет поля элемента по его id
+exit - завершает работу приложения
+execute_script filename - выполняет команды из файла filename
+
+2024-06-02 22:08:57,094 INFO ServerLogger [main] Получен запрос Request: command= lt.shgg.commands.Show@7c8c9a05user=lt.shgg.data.User@12820, ticket= null, args= null
+2024-06-02 22:08:57,121 INFO ServerLogger [main] Отправлен ответ Ticket{id=1, name='krid', coordinates=Coordinates{x=123.0, y=123}, creationDate=2024-05-17, price=123123, type=VIP, venue=Venue{id=5, name='Ledoviy', capacity=123123123, address=Address{street='saint p.'}}, author=Ann}
+
+2024-06-02 22:09:00,672 INFO ServerLogger [main] Получен запрос Request: command= lt.shgg.commands.Exit@5c2375a9user=lt.shgg.data.User@12820, ticket= null, args= null
+2024-06-02 22:09:00,673 INFO ServerLogger [main] Отправлен ответ screw you guys, i'm going home
