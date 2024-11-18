@@ -1,0 +1,54 @@
+2024-05-02 12:03:38,998 WARN ServerLogger [main] Произошла ошибка при попытке использовать порт
+2024-05-02 12:03:39,019 INFO ServerLogger [main] Добро пожаловать на сервер шизофрения
+2024-05-02 12:04:29,277 WARN ServerLogger [main] Произошла ошибка при попытке использовать порт
+2024-05-02 12:04:29,282 INFO ServerLogger [main] Добро пожаловать на сервер шизофрения
+2024-05-02 12:07:45,467 WARN ServerLogger [main] Произошла ошибка при попытке использовать порт
+2024-05-02 12:07:45,473 INFO ServerLogger [main] Добро пожаловать на сервер шизофрения
+2024-05-02 12:11:22,503 WARN ServerLogger [main] Произошла ошибка при попытке использовать порт
+2024-05-02 12:11:22,508 INFO ServerLogger [main] Добро пожаловать на сервер шизофрения
+2024-05-02 12:11:31,307 INFO ServerLogger [main] Добро пожаловать на сервер шизофрения
+2024-05-02 12:11:44,088 INFO ServerLogger [main] Получен запрос Request: command= lt.shgg.commands.Help@16746061, ticket= null, args= null
+2024-05-02 12:11:44,130 INFO ServerLogger [main] Отправлен ответ вот список доступных вам команд: help - справка по доступным командам
+info - выводит информацию о коллекции
+show - выводит все элементы коллекции
+add - добавляет элемент в коллекцию
+print_descending - выводит все элементы коллекции в порядке убывания
+filter_by_type type - выводит все элементы коллекции типа type
+count_greater_than_type type - выводит количество элементов коллекции, значение поля type которых больше заданного
+clear - удаляет все элементы из коллекции
+remove_by_id id - удаляет из коллекции элемент с айди id
+remove_greater {element} - удаляет из коллекции все элементы, меньшие, чем заданный
+remove_lower {element} - удаляет из коллекции все элементы, большие, чем заданный
+add_if_max {element} - добавляет элемент в коллекцию, если он превышает максимальный
+update id {element} - обновляет поля элемента по его id
+exit - завершает работу приложения
+execute_script filename - выполняет команды из файла filename
+
+2024-05-02 12:11:48,621 INFO ServerLogger [main] Получен запрос Request: command= lt.shgg.commands.Info@20a8a64e, ticket= null, args= null
+2024-05-02 12:11:48,626 INFO ServerLogger [main] Отправлен ответ Тип коллекции: LinkedHashSet
+Размер коллекции: 0
+2024-05-02 12:11:52,249 INFO ServerLogger [main] Получен запрос Request: command= lt.shgg.commands.Show@2cae1042, ticket= null, args= null
+2024-05-02 12:11:52,250 INFO ServerLogger [main] Отправлен ответ Коллекция пуста. Используйте команду add, чтоб добавить элементы
+2024-05-02 12:11:57,752 INFO ServerLogger [main] Получен запрос Request: command= lt.shgg.commands.Exit@2262b621, ticket= null, args= null
+2024-05-02 12:11:57,752 INFO ServerLogger [main] Отправлен ответ screw you guys, i'm going home
+2024-05-02 12:12:08,837 INFO ServerLogger [main] Объекты успешно сохранены
+2024-05-02 12:31:07,940 WARN ServerLogger [main] Произошла ошибка при попытке использовать порт
+2024-05-02 12:31:07,946 INFO ServerLogger [main] Добро пожаловать на сервер шизофрения
+2024-05-02 12:31:37,063 INFO ServerLogger [main] Добро пожаловать на сервер шизофрения
+2024-05-02 12:31:52,868 INFO ServerLogger [main] Получен запрос Request: command= lt.shgg.commands.Help@5e81e5ac, ticket= null, args= null
+2024-05-02 12:31:52,875 INFO ServerLogger [main] Отправлен ответ вот список доступных вам команд: help - справка по доступным командам
+info - выводит информацию о коллекции
+show - выводит все элементы коллекции
+add - добавляет элемент в коллекцию
+print_descending - выводит все элементы коллекции в порядке убывания
+filter_by_type type - выводит все элементы коллекции типа type
+count_greater_than_type type - выводит количество элементов коллекции, значение поля type которых больше заданного
+clear - удаляет все элементы из коллекции
+remove_by_id id - удаляет из коллекции элемент с айди id
+remove_greater {element} - удаляет из коллекции все элементы, меньшие, чем заданный
+remove_lower {element} - удаляет из коллекции все элементы, большие, чем заданный
+add_if_max {element} - добавляет элемент в коллекцию, если он превышает максимальный
+update id {element} - обновляет поля элемента по его id
+exit - завершает работу приложения
+execute_script filename - выполняет команды из файла filename
+
